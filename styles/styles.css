@@ -50,6 +50,7 @@ body {
   width: 375px;
   max-width: 420px;
   min-height: 233px;
+  margin: 0 auto;
 }
 
 .hero {
@@ -58,9 +59,22 @@ body {
   padding: var(--mob-padding);
 }
 
+.hero--draw-left {
+  display: none;
+}
+
+.hero--draw-right {
+  display: none;
+}
+
+.hero--text-container {
+  margin: 0 auto;
+  max-width: 210px;
+}
+
 .hero--title {
   margin: 32px auto;
-  max-width: 210px;
+  max-width: 240px;
   font-size: 1.6rem;
   letter-spacing: 0.5px;
 }
