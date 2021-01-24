@@ -61,15 +61,15 @@
       <!-- Features Cards -->
       <div class="features--cards-container">
         <!-- Card1 -->
-        <div class="f--card">
-          <div class="f--card-icon">
+        <div class="f--card ">
+          <div class="f--card-icon t--1">
             <img
-              class="f--icon1"
+              class="f--icon1 "
               src="./assets/illustration-passions.svg"
               alt=""
             />
           </div>
-          <div class="f--card-description">
+          <div class="f--card-description ">
             <h3>Indulge your passions</h3>
             <p>
               Your passions shouldn't be just for the weekend. Earn a living
@@ -78,7 +78,7 @@
           </div>
         </div>
         <!-- Card2 -->
-        <div class="f--card">
+        <div class="f--card ">
           <div class="f--card-icon">
             <img
               class="f--icon2"
@@ -86,7 +86,7 @@
               alt=""
             />
           </div>
-          <div class="f--card-description">
+          <div class="f--card-description t--2">
             <h3>Gain financial freedom</h3>
             <p>
               Start making money work for you. There’s nothing quite like
@@ -95,15 +95,15 @@
           </div>
         </div>
         <!-- Card3 -->
-        <div class="f--card">
-          <div class="f--card-icon">
+        <div class="f--card ">
+          <div class="f--card-icon t--1">
             <img
               class="f--icon3"
               src="./assets/illustration-lifestyle.svg"
               alt=""
             />
           </div>
-          <div class="f--card-description">
+          <div class="f--card-description ">
             <h3>Choose your lifestyle</h3>
             <p>
               Own your daily schedule. Fancy a lie-in? Go for it! Take charge of
@@ -112,7 +112,7 @@
           </div>
         </div>
         <!-- Card4 -->
-        <div class="f--card">
+        <div class="f--card f--2">
           <div class="f--card-icon">
             <img
               class="f--icon4"
@@ -120,7 +120,7 @@
               alt=""
             />
           </div>
-          <div class="f--card-description">
+          <div class="f--card-description t--2">
             <h3>Work from anywhere</h3>
             <p>
               Selling online means not being pinned down. Want to work AND
@@ -226,8 +226,22 @@
           <p id="mob-warn" class="mob-warn">Oops! That doesn’t look like an email address</p>
           <button onclick="validateMob()" id="mob-button">Get notified</button>
         </form>
-      </>
+      </footer>
       <!-- Mobile Form ENDS -->
+      <!-- Form -->
+      <footer class="form--container">
+        <div class="form--title">
+          <h2>Get notified when we launch</h2>
+        </div>
+        <form class="form" action="" onsubmit="event.preventDefault()">
+          <div class="formx">
+            <input id="input" type="email" aria-label="input" placeholder="Email address">
+            <button onclick="validate()" id="button">Get notified</button>
+          </div>
+            <p id="warn" class="warn">Oops! That doesn’t look like an email address</p>
+        </form>
+      </footer>
+      <!-- Form ENDS -->
     </main>
     <script src="./scripts.js"></script>
   </body>
