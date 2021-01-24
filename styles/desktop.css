@@ -47,7 +47,7 @@
 }
 
 .features--cards-container {
-  margin-top: 156px;
+  margin-top: 240px;
   flex-direction: row;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .pricing--container {
-  margin: 128px 0 0 0;
+  margin: 260px 0 0 0;
 }
 
 .pricing--container > h2 {
